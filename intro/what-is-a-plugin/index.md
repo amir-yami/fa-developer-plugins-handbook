@@ -8,6 +8,6 @@
 
 بیشتر افزونه‌های وردپرس از چندین فایل تشکیل شده‌اند، اما در واقع یک افزونه تنها به یک فایل اصلی با یک [DocBlock](https://en.wikipedia.org/wiki/PHPDoc) با فرمت مشخص در هدر نیاز دارد.
 
-[Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly")، یکی از اولین افزونه‌ها، تنها [100 خط](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php) کد دارد. Hello Dolly اشعار [آهنگ معروف](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song)) را در بخش مدیریت وردپرس نمایش می‌دهد. برای کنترل استایل اشعار، مقداری CSS نیز در فایل PHP به کار رفته است.
+افزونه [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly")، یکی از اولین افزونه‌ها، تنها [100 خط](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php) کد دارد. Hello Dolly اشعار [آهنگ معروف](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song)) را در بخش مدیریت وردپرس نمایش می‌دهد. برای کنترل استایل اشعار، مقداری CSS نیز در فایل PHP به کار رفته است.
 
 به عنوان یک نویسنده افزونه در WordPress.org، شما فرصت فوق‌العاده‌ای دارید تا افزونه‌ای بسازید که توسط میلیون‌ها کاربر وردپرس نصب، تغییر و دوست داشته شود. تنها چیزی که **شما** نیاز دارید، تبدیل ایده‌ی عالی‌تان به کد است. کتاب راهنمای افزونه اینجاست تا در این مسیر به شما کمک کند.
