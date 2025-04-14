@@ -1,13 +1,13 @@
-# What is a Plugin?
+# افزونه چیست؟
 
-Plugins are packages of code that extend the core functionality of WordPress. WordPress plugins are made up of PHP code and can include other assets such as images, CSS, and JavaScript.
+افزونه‌ها بسته‌هایی از کد هستند که قابلیت‌های اصلی وردپرس را گسترش می‌دهند. افزونه‌های وردپرس از کد PHP تشکیل شده‌اند و می‌توانند شامل سایر منابع مانند تصاویر، CSS و JavaScript نیز باشند.
 
-By making your own plugin you are _extending_ WordPress, for example, building additional functionality on top of what WordPress already offers, or you could write a plugin that displays links to the ten most recent posts on your site.
+با ساخت افزونه‌ی خود، در واقع در حال _گسترش_ وردپرس هستید؛ به عنوان مثال، می‌توانید قابلیت‌های اضافی بر اساس امکانات فعلی وردپرس بسازید یا افزونه‌ای بنویسید که لینک‌های ده پست اخیر سایت شما را نمایش دهد.
 
-Or, using WordPress' custom post types, you could write a plugin that creates a full-featured support ticketing system with email notifications, custom ticket statuses, and a client-facing portal. The possibilities are _endless_!_
+یا با استفاده از Custom Post Types وردپرس، می‌توانید افزونه‌ای ایجاد کنید که یک سیستم تیکت پشتیبانی کامل با اعلان‌های ایمیلی، وضعیت‌های سفارشی تیکت و یک پورتال برای مشتریان ارائه دهد. امکانات _بی‌پایان_ هستند!
 
-Most WordPress plugins are composed of many files, but a plugin really only _needs_ one main file with a specifically formatted [DocBlock](https://en.wikipedia.org/wiki/PHPDoc) in the header.
+بیشتر افزونه‌های وردپرس از چندین فایل تشکیل شده‌اند، اما در واقع یک افزونه تنها به یک فایل اصلی با یک [DocBlock](https://en.wikipedia.org/wiki/PHPDoc) با فرمت مشخص در هدر نیاز دارد.
 
-[Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly"), one of the first plugins, is only [100 lines](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php) long. Hello Dolly shows lyrics from [the famous song](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song)) in the WordPress admin. Some CSS is used in the PHP file to control how the lyric is styled.
+[Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly")، یکی از اولین افزونه‌ها، تنها [100 خط](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php) کد دارد. Hello Dolly اشعار [آهنگ معروف](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song)) را در بخش مدیریت وردپرس نمایش می‌دهد. برای کنترل استایل اشعار، مقداری CSS نیز در فایل PHP به کار رفته است.
 
-As a WordPress.org plugin author, you have an amazing opportunity to create a plugin that will be installed, tinkered with, and loved by millions of WordPress users. All **you** need to do is turn your great idea into code. The Plugin Handbook is here to help you with that.
+به عنوان یک نویسنده افزونه در WordPress.org، شما فرصت فوق‌العاده‌ای دارید تا افزونه‌ای بسازید که توسط میلیون‌ها کاربر وردپرس نصب، تغییر و دوست داشته شود. تنها چیزی که **شما** نیاز دارید، تبدیل ایده‌ی عالی‌تان به کد است. کتاب راهنمای افزونه اینجاست تا در این مسیر به شما کمک کند.
