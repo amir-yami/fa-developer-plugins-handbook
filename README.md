@@ -1,2 +1,3 @@
-# developer-plugins-handbook
-Welcome to the WordPress Plugin Developer Handbook; are you ready to jump right in to the world of WordPress plugins?
+# کتاب راهنمای توسعه افزونه وردپرس
+به راهنمای توسعه افزونه‌های وردپرس خوش آمدید؛ آیا آماده‌اید تا به دنیای توسعه افزونه های وردپرسی وارد شوید؟
+
