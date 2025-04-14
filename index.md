@@ -1,19 +1,26 @@
 # Plugin Handbook
 
-_Welcome to the WordPress Plugin Developer Handbook; are you ready to jump right in to the world of WordPress plugins?_
+_به کتاب راهنمای توسعه افزونه‌های وردپرس خوش آمدید؛ آماده‌اید مستقیماً وارد دنیای WordPress plugins بشید؟_
 
-The Plugin Developer Handbook is a resource for all things WordPress plugins. Whether you're new to WordPress plugin development, or you're an experienced plugin developer, you should be able to find the answer to many of your plugin-related questions right here.
+کتاب راهنمای توسعه‌دهنده افزونه، منبعی‌ست برای هر آنچه که به WordPress plugins مربوط می‌شود. چه تازه‌کار باشید و چه توسعه‌دهنده‌ای باتجربه، احتمالاً پاسخ بسیاری از پرسش‌های مربوط به افزونه‌ها را همین‌جا پیدا می‌کنید.
 
-- If you're new to plugin development, start by reading the [introduction](https://developer.wordpress.org/plugins/intro/) and then move on to [the basics](https://developer.wordpress.org/plugins/plugin-basics/).
-- The info in [plugin security](https://developer.wordpress.org/apis/security/) will introduce best practices for security related stuff.
-- [Hooks](https://developer.wordpress.org/plugins/hooks/) are what make your plugin interact with WordPress, and how you can let other developers interact with your plugin.
-- [Privacy](https://developer.wordpress.org/plugins/privacy/) will help you understand about handling sensitive data.
-- To find out more about WordPress' built-in functionality that you can use in your plugin, check out [Administration Menus](https://developer.wordpress.org/plugins/administration-menus/), [Shortcodes](https://developer.wordpress.org/plugins/shortcodes/), [Settings](https://developer.wordpress.org/plugins/settings/), [Metadata](https://developer.wordpress.org/plugins/metadata/), [Custom Post Types](https://developer.wordpress.org/plugins/post-types/), [Taxonomies](https://developer.wordpress.org/plugins/taxonomies/), and [Users](https://developer.wordpress.org/plugins/users/).
-- Learn about getting data using the [HTTP API](https://developer.wordpress.org/plugins/http-api/).
-- If you're using [JavaScript, jQuery, or AJAX](https://developer.wordpress.org/plugins/javascript/) in your plugin, you'll find the information you need in that section.
-- To learn about time-based WordPress tasks, check out the [Cron](https://developer.wordpress.org/plugins/cron/) chapter.
-- [Internationalization](https://developer.wordpress.org/plugins/internationalization/) is how you get your plugin ready for use in locales other than your own.
-- When all that is done, you can prepare your plugin for inclusion in the [Plugin Directory](https://developer.wordpress.org/plugins/wordpress-org/)
-- Finally: some [developer tools](https://developer.wordpress.org/plugins/developer-tools/) you might find useful.
+- اگر در توسعه افزونه تازه‌وارد هستید، با مطالعه [introduction](https://developer.wordpress.org/plugins/intro/) شروع کنید و سپس به [the basics](https://developer.wordpress.org/plugins/plugin-basics/) بروید.
+- بخش [plugin security](https://developer.wordpress.org/apis/security/) بهترین روش‌ها را برای مسائل مربوط به امنیت معرفی می‌کند.
+- [Hooks](https://developer.wordpress.org/plugins/hooks/) راهی هستند برای تعامل افزونه شما با وردپرس و همچنین اجازه دادن به دیگر توسعه‌دهندگان برای تعامل با افزونه‌تان.
+- [Privacy](https://developer.wordpress.org/plugins/privacy/) به شما کمک می‌کند تا با نحوه مدیریت داده‌های حساس آشنا شوید.
+- برای آشنایی با قابلیت‌های داخلی وردپرس که می‌توانید در افزونه خود از آن‌ها استفاده کنید، این بخش‌ها را بررسی کنید:  
+  [Administration Menus](https://developer.wordpress.org/plugins/administration-menus/)،  
+  [Shortcodes](https://developer.wordpress.org/plugins/shortcodes/)،  
+  [Settings](https://developer.wordpress.org/plugins/settings/)،  
+  [Metadata](https://developer.wordpress.org/plugins/metadata/)،  
+  [Custom Post Types](https://developer.wordpress.org/plugins/post-types/)،  
+  [Taxonomies](https://developer.wordpress.org/plugins/taxonomies/)،  
+  [Users](https://developer.wordpress.org/plugins/users/).
+- برای یادگیری نحوه دریافت داده از منابع خارجی، به [HTTP API](https://developer.wordpress.org/plugins/http-api/) مراجعه کنید.
+- اگر در افزونه خود از [JavaScript، jQuery یا AJAX](https://developer.wordpress.org/plugins/javascript/) استفاده می‌کنید، اطلاعات مورد نیاز خود را در این بخش خواهید یافت.
+- برای آشنایی با وظایف زمان‌بندی‌شده در وردپرس، فصل [Cron](https://developer.wordpress.org/plugins/cron/) را ببینید.
+- [Internationalization](https://developer.wordpress.org/plugins/internationalization/) روشی‌ست برای آماده‌سازی افزونه جهت استفاده در زبان‌ها و منطقه‌های مختلف.
+- زمانی که همه مراحل بالا را انجام دادید، می‌توانید افزونه خود را برای انتشار در [Plugin Directory](https://developer.wordpress.org/plugins/wordpress-org/) آماده کنید.
+- و در نهایت: برخی از [developer tools](https://developer.wordpress.org/plugins/developer-tools/) که ممکن است برایتان مفید باشند.
 
-The WordPress Plugin Developer Handbook is created by the WordPress community, for the WordPress community. We are always looking for more contributors; if you're interested, stop by the [Docs Team blog](https://make.wordpress.org/docs/) to find out more about getting involved.
+کتاب راهنمای توسعه افزونه وردپرس توسط جامعه وردپرس و برای جامعه وردپرس ایجاد شده است. ما همیشه به دنبال مشارکت‌کنندگان بیشتری هستیم؛ اگر علاقه‌مندید، به [Docs Team blog](https://make.wordpress.org/docs/) سر بزنید تا اطلاعات بیشتری درباره نحوه مشارکت به دست آورید.
