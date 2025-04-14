@@ -1,13 +1,13 @@
 # Introduction to Plugin Development
 
-Welcome to the Plugin Developer Handbook. Whether you're writing your first plugin or your fiftieth, we hope this resource helps you write the best plugin possible.
+به کتاب راهنمای توسعه افزونه خوش آمدید. چه اولین افزونه خود را می‌نویسید و چه پنجاهمین، امیدواریم این منبع به شما کمک کند تا بهترین افزونه ممکن را توسعه دهید.
 
-The Plugin Developer Handbook covers a variety of topics — everything from what should be in the plugin header, to security best practices, to tools you can use to build your plugin. It's also a work in progress — if you find something missing or incomplete, please notify the documentation team in slack and we'll make it better together.
+کتاب راهنمای توسعه افزونه موضوعات متنوعی را پوشش می‌دهد — از آنچه باید در Plugin Header قرار گیرد، تا بهترین روش‌های امنیتی و ابزارهایی که می‌توانید برای ساخت افزونه خود به کار بگیرید. همچنین این منبع همچنان در حال تکمیل است — اگر متوجه نقص یا جا افتادگی در آن شدید، لطفاً به تیم مستندسازی در Slack اطلاع دهید تا با هم آن را بهبود دهیم.
 
 ## Why We Make Plugins
 
-If there's one cardinal rule in WordPress development, it's this: **Don't touch WordPress core**. This means that you don't edit core WordPress files to add functionality to your site. This is because WordPress overwrites core files with each update. Any functionality you want to add or modify should be done using plugins.
+اگر یک قاعده اساسی در توسعه وردپرس وجود دارد، آن هم این است: **به هسته‌ی وردپرس دست نزنید**. این بدان معناست که فایل‌های اصلی وردپرس را برای افزودن قابلیت به سایت خود تغییر ندهید. دلیل این امر این است که وردپرس با هر به‌روزرسانی فایل‌های هسته را بازنویسی می‌کند. هر قابلیتی که می‌خواهید اضافه یا تغییر دهید باید از طریق افزونه‌ها انجام شود.
 
-WordPress plugins can be as simple or as complicated as you need them to be, depending on what you want to do. The simplest plugin is a single PHP file. The [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly Plugin") plugin is an example of such a plugin. The plugin PHP file just needs a [Plugin Header](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/), a couple of PHP functions, and some [hooks](https://developer.wordpress.org/plugins/hooks/) to attach your functions to.
+افزونه‌های وردپرس می‌توانند به اندازه‌ی نیازهای شما ساده یا پیچیده باشند. ساده‌ترین افزونه یک فایل PHP است. افزونه‌ی [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly Plugin") نمونه‌ای از چنین افزونه‌ای می‌باشد. فایل PHP افزونه تنها به یک [Plugin Header](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)، چند تابع PHP و برخی [hooks](https://developer.wordpress.org/plugins/hooks/) برای اتصال توابع شما نیاز دارد.
 
-Plugins allow you to greatly extend the functionality of WordPress without touching WordPress core itself.
+افزونه‌ها به شما این امکان را می‌دهند که بدون دست زدن به هسته‌ی وردپرس، قابلیت‌های آن را به طرز چشمگیری گسترش دهید.
